@@ -14,3 +14,4 @@ DS_Store
 **/output
 node_modules/
 */node_modules/*
+**/*.log
