@@ -1,22 +1,14 @@
 #!/bin/bash
 
-RACER=$RACER_NAME
-if [[ -z "$RACER" ]];
+if [[ $# != 2 ]];
 then
-  echo "Unable to find racer name in environment variable RACER_NAME";
-  exit 1;
-fi 
-
-echo "Racer from env: $RACER"
-echo "arg count $#"
-
-if [[ $# != 1 ]];
-then
-  echo "Usage: $0 <kataDirectory>"
+  echo "Usage: $0 <kataDirectory> racer[1-5]"
   exit 1;
 fi
 
 KATA=$1
+
+RACER=$2
 
 # Cleanup
 ./cleanup.sh
