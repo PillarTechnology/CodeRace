@@ -32,35 +32,35 @@ body {
 }
 
 #lane1 {
-  background: url('../img/Clown1.png');
+  background: url('../img/Racer1.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 
 #lane2 {
-  background: url('../img/Clown2.png');
+  background: url('../img/Racer2.png');
   background-repeat: no-repeat;
   background-size: contain;
 
 }
 
 #lane3 {
-  background: url('../img/Clown3.png');
+  background: url('../img/Racer3.png');
   background-repeat: no-repeat;
   background-size: contain;
 
 }
 
 #lane4 {
-  background: url('../img/Clown4.png');
+  background: url('../img/Racer4.png');
   background-repeat: no-repeat;
   background-size: contain;
 
 }
 
 #lane5 {
-  background: url('../img/Clown5.png');
+  background: url('../img/Racer5.png');
   background-repeat: no-repeat;
   background-size: contain;
   /*animation: wobble 10s infinite;*/
