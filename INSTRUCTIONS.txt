@@ -46,5 +46,12 @@ TODO - JAVA AND JS: How do I know which acceptance tests are passing? Am I suppo
 TODO - What should we see if gradle or something isn’t installed?
 TODO - Add/finish instructions on what tools to install.
 
-These katas seem to work: RomanNumeralsJS, FizzBuzzJS
+SERVER - Start new race (Pillar person)
+	ctrl-c to stop the server
+	type: ‘./cleanup.sh'
+	type: ‘npm start’
+	confirm that all lanes are 0% and have default driver names
+	sign up 5 new players
+	
+These katas seem to work: RomanNumeralsJS, FizzBuzzJS, fizzBuzzJava, romanNumeralsJava
 
