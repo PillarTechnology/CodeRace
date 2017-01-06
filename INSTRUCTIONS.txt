@@ -1,0 +1,50 @@
+SERVER LAPTOP to allow racing (Pillar person):
+	type: ‘git clone https://github.com/PillarTechnology/CodeRace.git'
+	type: ‘cd CodeRace’
+	type: ‘ifconfig | grep 192’
+	You will see something like:
+		inet 192.168.11.247
+	Write down the number starting with 192.
+	type: ‘npm start’
+	browser to localhost:8081/signup
+		sign up person 1 (set the dropdown to 1)
+		sign up person 2 (set the dropdown to 2)
+		...
+		sign up person 5 (set the dropdown to 5)
+	Display leaderboard by showing localhost:8081
+
+
+
+CLIENT LAPTOP to START race (Pillar person):
+	type: ‘git clone https://github.com/PillarTechnology/CodeRaceClients.git'
+	type: ‘cd CodeRaceClients’
+
+	JAVA
+		Edit romanNumeralsJava/build.gradle and change localhost to the 192.168… number
+		// next line will have racer1, racer2, ... racer 5, depending on which laptop
+		type: ‘./setupRace.sh romanNumeralsJava racer1’
+
+	Javascript
+		Edit raceProgressPoster.js and change 127.0.0.1 to the 192.168… number
+		// next line will have racer1, racer2, ... racer 5, depending on which laptop
+		type: ‘./setupRace.sh RomanNumeralsJS racer1’
+
+	open a new shell 
+
+	to PLAY (contestant):
+	JAVA
+		type: ‘cd CodeRaceClients/romanNumeralsJava/src/main/java/com/coderace/‘
+		edit the file RomanNumerals.java
+
+	JAVASCRIPT
+		type: ‘cd CodeRaceClients/RomanNumeralsJS/src’
+		edit the file RomanNumerals.js
+
+	save file changes -> tests will be run and server leader board will be updated
+
+TODO - JAVA AND JS: How do I know which acceptance tests are passing? Am I supposed to?
+TODO - What should we see if gradle or something isn’t installed?
+TODO - Add/finish instructions on what tools to install.
+
+These katas seem to work: RomanNumeralsJS, FizzBuzzJS
+
