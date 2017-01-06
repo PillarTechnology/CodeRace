@@ -53,5 +53,5 @@ SERVER - Start new race (Pillar person)
 	confirm that all lanes are 0% and have default driver names
 	sign up 5 new players
 	
-These katas seem to work: RomanNumeralsJS, FizzBuzzJS, fizzBuzzJava, romanNumeralsJava
+These katas seem to work: RomanNumeralsJS, FizzBuzzJS, romanNumeralsJava, fizzBuzzJava 
 
