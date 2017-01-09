@@ -27,6 +27,7 @@ RACE SERVER LAPTOP SETUP (Done by a Pillar person on RACE SERVER LAPTOP, once pe
   Run:
     1. Run server: 
       type: ‘npm start’
+      (You should see 'Race app listening at port 8081...holla at me' on the terminal')
     2. Signup users:
       Point browser to localhost:8081/signup
       sign up person 1 (set the dropdown to 1)
