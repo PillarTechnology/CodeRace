@@ -1,3 +1,11 @@
+DEFINITIONS:
+	- RACE SERVER LAPTOP: The one laptop which receives race results from 5 COMPETITOR RACE LAPTOPS and displays them on the LEADER BOARD
+	- LEADER BOARD: The webpage, running on the RACE SERVER LAPTOP, that shows 5 lanes, each with a player's name and a graphic icon (car or whatever) and indicates each contestant's progress left-to-right in the lane.
+	- COMPETITOR RACE LAPTOP: The 5 laptops that the competitors sit at and write their code.
+	- RACE: One iteration of a selected kata, five players, their code and the results on the leaderboard.
+
+
+
 RACE SERVER LAPTOP SETUP (Done by a Pillar person on RACE SERVER LAPTOP, once per RACE SERVER LAPTOP)
   Pre-installations:
     1. Git client (Only required for cloning git)
