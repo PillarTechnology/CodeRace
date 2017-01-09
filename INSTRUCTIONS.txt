@@ -15,9 +15,9 @@ SERVER LAPTOP to allow racing (Pillar person):
       Write down the IP number starting with 192.
 
 	Run:
-		1. Run server: 
+    1. Run server: 
       type: ‘npm start’
-		2. Signup users:
+    2. Signup users:
       Point browser to localhost:8081/signup
       sign up person 1 (set the dropdown to 1)
       sign up person 2 (set the dropdown to 2)
@@ -33,6 +33,8 @@ CLIENT LAPTOP to SETUP race (Pillar person):
     https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
   2. Node.js and NPM
     https://docs.npmjs.com/getting-started/installing-node
+  3. Gradle (If running race in Java)
+    https://docs.gradle.org/current/userguide/installation.html
     
   Setup:
   1. Clone CodeRaceClients into local laptop:
@@ -66,14 +68,14 @@ CLIENT LAPTOP to ACTUALLY race (contestant):
 
 SERVER LAPTOP to Reset all players and start new race (Pillar person)
 	Steps:	
-	1. ctrl-c to stop the server
-	2. type: ‘./cleanup.sh'
-	3. type: ‘npm start’
-	4. Confirm that all lanes are 0% and have default driver names
-	5. sign up 5 new players
+    1. ctrl-c to stop the server
+    2. type: ‘./cleanup.sh'
+    3. type: ‘npm start’
+    4. Confirm that all lanes are 0% and have default driver names
+    5. sign up 5 new players
 	
 NOTE:
-These katas seem to work: RomanNumeralsJS, FizzBuzzJS, romanNumeralsJava, fizzBuzzJava 
+  These katas seem to work: RomanNumeralsJS, FizzBuzzJS, romanNumeralsJava, fizzBuzzJava 
 
 
 TODO - JAVA AND JS: How do I know which acceptance tests are passing? Am I supposed to?
