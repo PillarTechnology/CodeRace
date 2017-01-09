@@ -50,28 +50,23 @@ COMPETITOR LAPTOP SETUP (Done by a Pillar person five times, once per COMPETITOR
   Setup:
   1. Clone CodeRaceClients into local laptop:
     type: ‘git clone https://github.com/PillarTechnology/CodeRaceClients.git'
-  2. Update IP to be that of the server machine:
-    type: ‘cd CodeRaceClients’
-    For JAVA:
-      Edit romanNumeralsJava/build.gradle and change localhost to the 192.168… number
-
-    For Javascript:
-      Edit raceProgressPoster.js and change 127.0.0.1 to the 192.168… number
-      
-  3. Setup race for each racer:
+   
+  2. Setup race for each racer:
     For JAVA:
     // Replace RACER below with racer1, racer2, ... racer5, depending on which laptop
-    type: ‘./setupRace.sh romanNumeralsJava RACER’
+    // Replace SERVER_IP with the server ip from above (192.168… number)
+    type: ‘./setupRace.sh romanNumeralsJava RACER SERVER_IP’
     
     For Javascript:
     type: 'cd RomanNumeralsJS'
     type: 'npm install'
     type: 'cd ..'
     // Replace RACER below with racer1, racer2, ... racer5, depending on which laptop
-    type: ‘./setupRace.sh RomanNumeralsJS RACER’
+    // Replace SERVER_IP with the server ip from above (192.168… number)
+    type: ‘./setupRace.sh RomanNumeralsJS RACER SERVER_IP’
     It should read 'Updated racer1 to 0' in the terminal.
   
-  4. Laptop is now setup for the race. 
+  3. Laptop is now setup for the race. 
 
 
 PLAYING IN THE RACE (Done by contestant, on their assigned COMPETITOR RACE LAPTOP)
@@ -91,11 +86,10 @@ PLAYING IN THE RACE (Done by contestant, on their assigned COMPETITOR RACE LAPTO
 RESET ALL PLAYERS AND START NEW RACE (Done by a Pillar person on RACE SERVER LAPTOP)
 SERVER LAPTOP to Reset all players and start new race (Pillar person)
   Steps:	
-  1. ctrl-c to stop the server
-  2. type: ‘./cleanup.sh'
-  3. type: ‘npm start’
-  4. Confirm that all lanes are 0% and have default driver names
-  5. sign up 5 new players
+  
+  1. type: ‘./cleanup.sh'
+  2. Confirm that all lanes are 0% and have default driver names
+  3. sign up 5 new players
 	
 NOTE:
   These katas seem to work: RomanNumeralsJS, FizzBuzzJS, romanNumeralsJava, fizzBuzzJava 
