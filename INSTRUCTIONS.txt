@@ -1,63 +1,68 @@
 SERVER LAPTOP to allow racing (Pillar person):
-
-	Pre-installations:
-		1. Git client (Only required for cloning git)
-		   https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-		2. Node.js and NPM
-		   https://docs.npmjs.com/getting-started/installing-node
+  Pre-installations:
+    1. Git client (Only required for cloning git)
+      https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+    2. Node.js and NPM
+      https://docs.npmjs.com/getting-started/installing-node
         
 	Setup:
 		1. Clone CodeRace into local laptop:
-		   type: ‘git clone https://github.com/PillarTechnology/CodeRace.git'
+      type: ‘git clone https://github.com/PillarTechnology/CodeRace.git'
     2. Determine IP of the laptop:
-		   type: ‘cd CodeRace’
-		   type: ‘ifconfig | grep 192’
-		   You will see something like: inet 192.168.11.247
-		   Write down the number starting with 192.
+      type: ‘cd CodeRace’
+      type: ‘ifconfig | grep 192’
+      You will see something like: inet 192.168.11.247
+      Write down the IP number starting with 192.
 
 	Run:
 		1. Run server: 
-		   type: ‘npm start’
+      type: ‘npm start’
 		2. Signup users:
-		  Point browser to localhost:8081/signup
-		sign up person 1 (set the dropdown to 1)
-		sign up person 2 (set the dropdown to 2)
-		...
-		sign up person 5 (set the dropdown to 5)
-		Display leaderboard by showing localhost:8081
+      Point browser to localhost:8081/signup
+      sign up person 1 (set the dropdown to 1)
+      sign up person 2 (set the dropdown to 2)
+      ...
+      sign up person 5 (set the dropdown to 5)
+		3. Validate all users are signed up:
+      Display leaderboard by showing localhost:8081
 
+CLIENT LAPTOP to SETUP race (Pillar person):
+  
+  Pre-installations:
+  1. Git client (Only required for cloning git)
+    https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+  2. Node.js and NPM
+    https://docs.npmjs.com/getting-started/installing-node
+    
+  Setup:
+  1. Clone CodeRaceClients into local laptop:
+    type: ‘git clone https://github.com/PillarTechnology/CodeRaceClients.git'
+  2. Update IP to be that of the server machine:
+    type: ‘cd CodeRaceClients’
+    For JAVA:
+      Edit romanNumeralsJava/build.gradle and change localhost to the 192.168… number
+      // Replace RACER below with racer1, racer2, ... racer5, depending on which laptop
+      type: ‘./setupRace.sh romanNumeralsJava RACER’
+    For Javascript:
+      Edit raceProgressPoster.js and change 127.0.0.1 to the 192.168… number
+      // Replace RACER below with racer1, racer2, ... racer5, depending on which laptop
+      type: ‘./setupRace.sh RomanNumeralsJS RACER’
+  3. Laptop is now setup for the Race. 
 
+	
+CLIENT LAPTOP to ACTUALLY race (contestant):
+  Steps:
+  1. Open a new terminal window.
+  2. Edit the source file to make the tests pass:
+      For JAVA:
+        type: ‘cd CodeRaceClients/romanNumeralsJava/src/main/java/com/coderace/‘
+        edit the file RomanNumerals.java
 
-CLIENT LAPTOP to START race (Pillar person):
-	type: ‘git clone https://github.com/PillarTechnology/CodeRaceClients.git'
-	type: ‘cd CodeRaceClients’
-
-	JAVA
-		Edit romanNumeralsJava/build.gradle and change localhost to the 192.168… number
-		// next line will have racer1, racer2, ... racer 5, depending on which laptop
-		type: ‘./setupRace.sh romanNumeralsJava racer1’
-
-	Javascript
-		Edit raceProgressPoster.js and change 127.0.0.1 to the 192.168… number
-		// next line will have racer1, racer2, ... racer 5, depending on which laptop
-		type: ‘./setupRace.sh RomanNumeralsJS racer1’
-
-	open a new shell 
-
-	to PLAY (contestant):
-	JAVA
-		type: ‘cd CodeRaceClients/romanNumeralsJava/src/main/java/com/coderace/‘
-		edit the file RomanNumerals.java
-
-	JAVASCRIPT
-		type: ‘cd CodeRaceClients/RomanNumeralsJS/src’
-		edit the file RomanNumerals.js
+      For JAVASCRIPT:
+        type: ‘cd CodeRaceClients/RomanNumeralsJS/src’
+        edit the file RomanNumerals.js
  
-	save file changes -> tests will be run and server leader board will be updated
-
-TODO - JAVA AND JS: How do I know which acceptance tests are passing? Am I supposed to?
-TODO - What should we see if gradle or something isn’t installed?
-TODO - Add/finish instructions on what tools to install.
+  3. Save file changes -> tests will be run and server leader board will be updated
 
 SERVER - Start new race (Pillar person)
 	ctrl-c to stop the server
@@ -67,4 +72,9 @@ SERVER - Start new race (Pillar person)
 	sign up 5 new players
 	
 These katas seem to work: RomanNumeralsJS, FizzBuzzJS, romanNumeralsJava, fizzBuzzJava 
+
+
+TODO - JAVA AND JS: How do I know which acceptance tests are passing? Am I supposed to?
+TODO - What should we see if gradle or something isn’t installed?
+TODO - Add/finish instructions on what tools to install.
 
