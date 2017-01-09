@@ -1,4 +1,4 @@
-SERVER LAPTOP to allow racing (Pillar person):
+RACE SERVER LAPTOP SETUP (Done by a Pillar person on RACE SERVER LAPTOP, once per RACE SERVER LAPTOP)
   Pre-installations:
     1. Git client (Only required for cloning git)
       https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
@@ -14,7 +14,7 @@ SERVER LAPTOP to allow racing (Pillar person):
       You will see something like: inet 192.168.11.247
       Write down the IP number starting with 192.
 
-	Run:
+  Run:
     1. Run server: 
       type: ‘npm start’
     2. Signup users:
@@ -26,8 +26,8 @@ SERVER LAPTOP to allow racing (Pillar person):
 		3. Validate all users are signed up:
       Display leaderboard by showing localhost:8081
 
-CLIENT LAPTOP to SETUP race (Pillar person):
-  
+COMPETITOR LAPTOP SETUP (Done by a Pillar person five times, once per COMPETITOR RACE LAPTOP)
+
   Pre-installations:
   1. Git client (Only required for cloning git)
     https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
@@ -49,10 +49,10 @@ CLIENT LAPTOP to SETUP race (Pillar person):
       Edit raceProgressPoster.js and change 127.0.0.1 to the 192.168… number
       // Replace RACER below with racer1, racer2, ... racer5, depending on which laptop
       type: ‘./setupRace.sh RomanNumeralsJS RACER’
-  3. Laptop is now setup for the Race. 
+  3. Laptop is now setup for the race. 
 
-	
-CLIENT LAPTOP to ACTUALLY race (contestant):
+
+PLAYING IN THE RACE (Done by contestant, on their assigned COMPETITOR RACE LAPTOP)
   Steps:
   1. Open a new terminal window.
   2. Edit the source file to make the tests pass:
@@ -65,6 +65,8 @@ CLIENT LAPTOP to ACTUALLY race (contestant):
         edit the file RomanNumerals.js
   3. Save file changes -> tests will be run and server leader board will be updated
 
+
+RESET ALL PLAYERS AND START NEW RACE (Done by a Pillar person on RACE SERVER LAPTOP)
 SERVER LAPTOP to Reset all players and start new race (Pillar person)
   Steps:	
   1. ctrl-c to stop the server
