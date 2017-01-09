@@ -63,8 +63,7 @@ CLIENT LAPTOP to ACTUALLY race (contestant):
       For JAVASCRIPT:
         type: ‘cd CodeRaceClients/RomanNumeralsJS/src’
         edit the file RomanNumerals.js
- 
-  3. Save file changes -> tests will be run and server leader board will be updated
+3. Save file changes -> tests will be run and server leader board will be updated
 
 SERVER LAPTOP to Reset all players and start new race (Pillar person)
 	Steps:	
