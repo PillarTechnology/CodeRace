@@ -94,8 +94,3 @@ SERVER LAPTOP to Reset all players and start new race (Pillar person)
 NOTE:
   These katas seem to work: RomanNumeralsJS, FizzBuzzJS, romanNumeralsJava, fizzBuzzJava 
 
-
-TODO - JAVA AND JS: How do I know which acceptance tests are passing? Am I supposed to?
-TODO - What should we see if gradle or something isn’t installed?
-TODO - Add/finish instructions on what tools to install.
-
