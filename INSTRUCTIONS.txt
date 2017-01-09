@@ -64,13 +64,15 @@ CLIENT LAPTOP to ACTUALLY race (contestant):
  
   3. Save file changes -> tests will be run and server leader board will be updated
 
-SERVER - Start new race (Pillar person)
-	ctrl-c to stop the server
-	type: ‘./cleanup.sh'
-	type: ‘npm start’
-	confirm that all lanes are 0% and have default driver names
-	sign up 5 new players
+SERVER LAPTOP to Reset all players and start new race (Pillar person)
+	Steps:	
+	1. ctrl-c to stop the server
+	2. type: ‘./cleanup.sh'
+	3. type: ‘npm start’
+	4. Confirm that all lanes are 0% and have default driver names
+	5. sign up 5 new players
 	
+NOTE:
 These katas seem to work: RomanNumeralsJS, FizzBuzzJS, romanNumeralsJava, fizzBuzzJava 
 
 
