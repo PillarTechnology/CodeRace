@@ -21,6 +21,8 @@ RACE SERVER LAPTOP SETUP (Done by a Pillar person on RACE SERVER LAPTOP, once pe
       type: ‘ifconfig | grep 192’
       You will see something like: inet 192.168.11.247
       Write down the IP number starting with 192.
+    3. Install node packages
+      type: 'npm install'
 
   Run:
     1. Run server: 
