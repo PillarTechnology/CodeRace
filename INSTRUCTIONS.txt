@@ -86,10 +86,11 @@ PLAYING IN THE RACE (Done by contestant, on their assigned COMPETITOR RACE LAPTO
 RESET ALL PLAYERS AND START NEW RACE (Done by a Pillar person on RACE SERVER LAPTOP)
 SERVER LAPTOP to Reset all players and start new race (Pillar person)
   Steps:	
-  
-  1. type: ‘./cleanup.sh'
-  2. Confirm that all lanes are 0% and have default driver names
-  3. sign up 5 new players
+  1. ctrl-c to stop the server
+  2. type: ‘./cleanup.sh'
+  3. type: ‘npm start’
+  4. Confirm that all lanes are 0% and have default driver names
+  5. sign up 5 new players
 	
 NOTE:
   These katas seem to work: RomanNumeralsJS, FizzBuzzJS, romanNumeralsJava, fizzBuzzJava 
