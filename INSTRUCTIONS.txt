@@ -69,6 +69,7 @@ COMPETITOR LAPTOP SETUP (Done by a Pillar person five times, once per COMPETITOR
     type: 'cd ..'
     // Replace RACER below with racer1, racer2, ... racer5, depending on which laptop
     type: ‘./setupRace.sh RomanNumeralsJS RACER’
+    It should read 'Updated racer1 to 0' in the terminal.
   
   4. Laptop is now setup for the race. 
 
