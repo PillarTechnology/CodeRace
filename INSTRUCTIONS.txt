@@ -5,7 +5,7 @@ SERVER LAPTOP to allow racing (Pillar person):
     2. Node.js and NPM
       https://docs.npmjs.com/getting-started/installing-node
         
-	Setup:
+  Setup:
 		1. Clone CodeRace into local laptop:
       type: ‘git clone https://github.com/PillarTechnology/CodeRace.git'
     2. Determine IP of the laptop:
