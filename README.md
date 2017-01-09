@@ -2,8 +2,6 @@
 
 Server application which hosts the Code Race.
 
-See _notes.txt_ for some information about files/paths that racers need to know and work in.
-
 ## Running the server
 
 ```sh
