@@ -54,13 +54,23 @@ COMPETITOR LAPTOP SETUP (Done by a Pillar person five times, once per COMPETITOR
     type: ‘cd CodeRaceClients’
     For JAVA:
       Edit romanNumeralsJava/build.gradle and change localhost to the 192.168… number
-      // Replace RACER below with racer1, racer2, ... racer5, depending on which laptop
-      type: ‘./setupRace.sh romanNumeralsJava RACER’
+
     For Javascript:
       Edit raceProgressPoster.js and change 127.0.0.1 to the 192.168… number
-      // Replace RACER below with racer1, racer2, ... racer5, depending on which laptop
-      type: ‘./setupRace.sh RomanNumeralsJS RACER’
-  3. Laptop is now setup for the race. 
+      
+  3. Setup race for each racer:
+    For JAVA:
+    // Replace RACER below with racer1, racer2, ... racer5, depending on which laptop
+    type: ‘./setupRace.sh romanNumeralsJava RACER’
+    
+    For Javascript:
+    type: 'cd RomanNumeralsJS'
+    type: 'npm install'
+    type: 'cd ..'
+    // Replace RACER below with racer1, racer2, ... racer5, depending on which laptop
+    type: ‘./setupRace.sh RomanNumeralsJS RACER’
+  
+  4. Laptop is now setup for the race. 
 
 
 PLAYING IN THE RACE (Done by contestant, on their assigned COMPETITOR RACE LAPTOP)
