@@ -82,6 +82,10 @@ PLAYING IN THE RACE (Done by contestant, on their assigned COMPETITOR RACE LAPTO
         edit the file RomanNumerals.js
   3. Save file changes -> tests will be run and server leader board will be updated
 
+RESET BACK CODE ON CLIENT LAPTOPS(Done by a Pillar person on COMPETITOR RACE)
+  Steps:
+  1. ./cleanup.sh
+
 
 RESET ALL PLAYERS AND START NEW RACE (Done by a Pillar person on RACE SERVER LAPTOP)
 SERVER LAPTOP to Reset all players and start new race (Pillar person)
