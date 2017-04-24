@@ -4,14 +4,14 @@ Server application which hosts the Code Race.
 
 ## Getting Started
 
-See [Manual Instructions](https://github.com/PillarTechnology/CodeRace/blob/master/README.md "Manual Instructions") for detailed steps for setting up Code Race, and [Automated Instructions](https://github.com/PillarTechnology/CodeRaceClients/blob/master/README.md "Automated Instructions") for the easy path.
+See [Manual Instructions](https://github.com/PillarTechnology/CodeRace/blob/master/README.md "Manual Instructions") for detailed steps for setting up Code Race, and [Automated Instructions](https://github.com/PillarTechnology/CodeRace/blob/master/README.md "Automated Instructions") for the easy path.
 
 
 #### RACE SERVER LAPTOP SETUP
 (Done by a Pillar person on RACE SERVER LAPTOP, once per RACE SERVER LAPTOP)
 
 ##### Setup:
-1. Copy the content of [`CodeRaceServerSetup.scpt`](https://github.com/PillarTechnology/CodeRaceClients/Scripts/CodeRaceServerSetup.scpt "Code Race Server Setup") into an Script Editor (found under Utilities).
+1. Download [`CodeRaceServerSetup.scpt`](https://github.com/PillarTechnology/CodeRace/blob/master/Scripts/CodeRaceServerSetup.scpt "Code Race Server Setup") and open it in Script Editor (found under Utilities).
 2. Compile the script (Hammer icon)
 3. Run the script (Play icon)
 
