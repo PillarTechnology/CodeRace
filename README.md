@@ -4,7 +4,7 @@ Server application which hosts the Code Race.
 
 ## Getting Started
 
-See [Manual Instructions](https://github.com/PillarTechnology/CodeRace/blob/master/README.md "Manual Instructions") for detailed steps for setting up Code Race, and [Automated Instructions](https://github.com/PillarTechnology/CodeRace/blob/master/README.md "Automated Instructions") for the easy path.
+See [Manual Instructions](https://github.com/PillarTechnology/CodeRace/blob/master/ManualInstructions.md "Manual Instructions") for detailed steps for setting up Code Race, and [Automated Instructions](https://github.com/PillarTechnology/CodeRace/blob/master/AutomatedInstructions.md "Automated Instructions") for the easy path.
 
 
 #### RACE SERVER LAPTOP SETUP
@@ -19,19 +19,19 @@ See [Manual Instructions](https://github.com/PillarTechnology/CodeRace/blob/mast
 > 1. Install the following applications:
 >    * Homebrew
 >    * Git client
->    * Node.js and nom
+>    * Node.js and npm
 > 
-> 2. Create a 'coderace' directory to clone the git repository into.
+> 2. Create a `coderace` directory to clone the git repository into.
 > 3. Clone the repository.
 > 4. Install all necessary npm packages.
-> 5. Place shortcuts to all scripts, the CodeRace directory, and these instructions on the Desktop.
+> 5. Place shortcuts to all scripts, the `CodeRace` directory, and these instructions on the Desktop.
 > 6. Find the server's IP address on the local network
 >    * Write down this IP address to enter on client computers.
->    * If you forget or lose the IP, you will find a 'getIP' script on the Desktop.  This will show your IP.
+>    * If you forget or lose the IP, you will find a `getIP` script on the `Desktop`.  This will show your IP.
 > 
         
 ##### Run:
-1. Run the 'StartCodeRaceServer' script application
+1. Run the `StartCodeRaceServer` script application
    * ###### The script will do the following:
      > - Run the `./cleanup.sh` script to reset the code back to a blank state.
      > - Start the server.
@@ -48,5 +48,12 @@ See [Manual Instructions](https://github.com/PillarTechnology/CodeRace/blob/mast
    * Display leaderboard by showing http://localhost:8081
     
 4. Make sure all racer names are correct and all racers are at 0%.
+
+##### Ending Race:
+1. Run the `KillCodeRaceServer` script application on the `Desktop`
+   * ###### The script will do the following
+      > - Shut down the server.
+      > - Quit Safari.
+      > - Quit Terminal.
 
 Note: All the client Kata code has now been moved to https://github.com/PillarTechnology/CodeRaceClients
