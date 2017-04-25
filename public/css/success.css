@@ -1,6 +1,6 @@
 body {
   background: url('/img/pillar_success_background.png');
-  background-size: 100%;
+  background-size: 90%;
 }
 
 #submit-button-img{
@@ -15,7 +15,18 @@ body {
 
 .content {
   font-family: Arial;
+  margin-top: -25px;
   font-size: 45px;
   color: white;
   text-align: center;
+}
+.return_button {
+  font-family: Arial;
+  width: 458px;
+  height: 104px;
+  background-color: white;
+  opacity: .25;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none !important;
 }
