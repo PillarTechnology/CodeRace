@@ -18,7 +18,7 @@
 ###### (Done by a Pillar person on RACE SERVER LAPTOP, once per RACE SERVER LAPTOP)
 
 #### Setup:
-1. Copy the content of `CodeRaceServerSetup.scpt` into an Script Editor (found under Utilities):
+1. Download `CodeRaceServerSetup.scpt` to your computer and open it with Script Editor (found under Utilities):
 2. Compile the script (Hammer icon)
 3. Run the script (Play icon)
    ##### The script will do the following: 
@@ -29,7 +29,7 @@
       >2. Create a `coderace` directory to clone the git repository into.
       >3. Clone the repository.
       >4. Install all necessary npm packages.
-      >5. Place shortcuts to all scripts, the CodeRace directory, and these instructions on the Desktop.
+      >5. Place shortcuts to all scripts, the CodeRace directory, and these instructions on the `Desktop`.
       >6. Find the server's IP address on the local network
       >    * Write down this IP address to enter on client computers.
       >    * If you forget or lose the IP, you will find a `getIP` script on the Desktop.  This will show your IP.
@@ -78,7 +78,7 @@
    >5. Create a `coderace` direcotry, which the CodeRaceClients repo will be cloned into.
    >6. Clone the git repository https://github.com/PillarTechnology/CodeRaceClients.git
    >7. Download Visual Studio Code
-   >8. Place shortcuts to all scripts, the CodeRace directory, and these instructions on the `Desktop`.
+   >8. Place shortcuts to all scripts, the `CodeRace` directory, and these instructions on the `Desktop`.
 
 4. Install Visual Studio Code
 
@@ -108,6 +108,6 @@
    * Close Safari
 
 #### NOTE
-* In case that any errors occur with a script, refer to the [Manual Instructions](https://github.com/PillarTechnology/CodeRace/blob/master/README.md "Manual Instructions") located in the CodeRace or CodeRaceClients directory.
+* In case that any errors occur with a script, refer to the [Manual Instructions](https://github.com/PillarTechnology/CodeRace/blob/master/ManualInstructions.md "Manual Instructions") located in the CodeRace or CodeRaceClients directory.
 * Scripts can also be found in the `Scripts` sub-directory in the repo and changed if needed.
 * Infinite loops may cause the client/server to hang.  Fix this by running the `KillClientServer` script on the affected computer and re-start the kata. Other players should not be affected.
