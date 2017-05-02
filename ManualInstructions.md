@@ -65,6 +65,12 @@
 5. Gradle (For running races in Java)
    * Enter the following in Terminal:
       * `brew install gradle`
+6. Visual Studio Code
+   * Go to [VS Code Download](https://code.visualstudio.com/docs/?dv=osx "Visual Studio Code Download")
+   * Open VS Code and press `Command-Shift-P` to open the command palette, and type `shell`, then select to `install 'code' command in PATH`.
+      * It is recommended that you add the following extensions:
+         * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner "Code Runner") - Allows players to run their code to check output.
+         * [Java Language Support](https://marketplace.visualstudio.com/items?itemName=georgewfraser.vscode-javac "Java Language Support") - Adds intellisense for Java
     
 ##### Setup:
 1. Clone CodeRaceClients into local laptop under 'coderace' directory.  (viz. 'Macintosh HD/Users/user/coderace"), so final cloned directory will be 'Macintosh HD/Users/user/coderace/CodeRaceClients":
@@ -94,7 +100,9 @@
 
 ##### Steps:
 1. Open a new terminal window.
-2. Edit the source file to make the tests pass:
+2. Navigate to the appropriate race directory.
+3. Type `code ` then the source file to be edited.
+4. Edit the source file to make the tests pass:
    ##### For JAVA:
       type: `cd CodeRaceClients/romanNumeralsJava/src/main/java/com/coderace/`
       edit the file `RomanNumerals.java`
@@ -104,7 +112,7 @@
       edit the file `RomanNumerals.js`
       <br/>
       <br/>
-3. Save file changes -> tests will be run and server leader board will be updated
+5. Save file changes -> tests will be run and server leader board will be updated
 
 ### RESET BACK CODE ON CLIENT LAPTOPS
 ##### (Done by a Pillar person on COMPETITOR RACE)

@@ -78,6 +78,9 @@
    >5. Create a `coderace` direcotry, which the CodeRaceClients repo will be cloned into.
    >6. Clone the git repository https://github.com/PillarTechnology/CodeRaceClients.git
    >7. Download Visual Studio Code
+   >    * It is recommended that you add the following extensions:
+   >       * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner "Code Runner") - Allows players to run their code to check output.
+   >       * [Java Language Support](https://marketplace.visualstudio.com/items?itemName=georgewfraser.vscode-javac "Java Language Support") - Adds intellisense for Java
    >8. Place shortcuts to all scripts, the `CodeRace` directory, and these instructions on the `Desktop`.
 
 4. Install Visual Studio Code
