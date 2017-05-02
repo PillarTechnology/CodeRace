@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color: black;
     background: url('/img/whole_background.png');
-    background-size: 100% 123%;
+    background-size: 100% 105%;
     background-repeat: no-repeat;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .racer {
-    margin: 0;
+    margin: 10px 0px 10px 0px;
     padding: 0  0 0 1%;
     border: none;
     width: 20%;
@@ -28,13 +28,15 @@ body {
     font-size: 45px;
     color: white;
     text-align: left;
-
 }
 
 #lane1 {
   background: url('../img/Racer1.png');
   background-repeat: no-repeat;
   background-size: contain;
+  margin-bottom: 20px;
+  /*animation: wobble 10s infinite;*/
+  /* At this point the animation will move the text as well as the image.  A way to seperate them? */
 }
 
 
@@ -63,7 +65,6 @@ body {
   background: url('../img/Racer5.png');
   background-repeat: no-repeat;
   background-size: contain;
-  /*animation: wobble 10s infinite;*/
 }
 
 .racer-icon {
@@ -83,6 +84,7 @@ body {
     padding: 40px 0 20px 0;
     font-size: 45px;
     color: white;
+    margin-bottom: 8vw;
 }
 
 .header img {
@@ -98,9 +100,11 @@ body {
 }
 
 .lane {
-    height: 155px;
+    height: 9vw;
     width: 100%;
     position: relative;
+    padding: 20px 0px 20px 0px;
+    margin: 20px 0px 25px 0px;
 }
 
 @keyframes wobble {
